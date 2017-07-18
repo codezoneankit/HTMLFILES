@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Imonomy</title>
+		<meta name="description" content="A jQuery slider built from scratch!">
+		<meta name="author" content="Yevgeny Getman">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- jQuery -->
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i,800,800i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css" >
+	</head>
+	
+	<body>
+		<header class="header">
+			<div class="wraper">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div><!--logo-->
+
+				<div class="menu">
+					<ul>
+						<li><a href="#">Publishers</a></li>
+						<li><a href="#">Advertisers</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+                        <li><a href="#">Ankit Das</a></li>
+					</ul>
+				</div><!--menu-->
+
+				<div class="right-menu">
+					<ul>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+				</div><!--right menu-->
+
+			</div><!--wraper-->
+		</header><!--header-->
+
+		<nav id='cssmenu'>
+			<div class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+			<div id="head-mobile"></div>
+			<div class="button"></div>
+			<ul>
+				<li><a href="#">Publishers</a></li>
+				<li><a href="#">Advertisers</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+
+
+		<div class="wraper">
+			<div class="post">
+				<div class="slider">
+					<div class="full-width">
+						<div class="inner">						
+							<div class="slide">							
+								<img src="img/slider1.jpeg" width="1020" height="400">
+								<div>
+									<h3>How Publishers can realize the power of images </h3>
+									<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+								</div>
+							</div><!--slide-->
+							<div class="slide">							
+								<img src="img/slider2.jpeg" width="1020" height="400">
+								<div>
+									<h3>How Publishers can realize the power of images </h3>
+									<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+								</div>
+							</div><!--slide-->
+							<div class="slide">							
+								<img src="img/slider3.jpeg" width="1020" height="400">
+								<div>
+									<h3>How Publishers can realize the power of images </h3>
+									<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+								</div>
+							</div><!--slide-->
+							<div class="controls">
+								<a href="#" class="left">&larr;</a>
+								<a href="#" class="right">&rarr;</a>
+							</div>
+							<div class="slide-nav"></div>
+						</div><!--inner-->
+						
+					</div><!--full-width-->
+				</div><!--slider-->
+
+			
+				<div class="blog-post">
+					<img src="img/slider3.jpeg" alt="">
+					<h2>Publisher : leverege the olympics to boost your revenues</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a href="#"><button class="btn">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+				</div><!--blog post-->
+
+				<div class="blog-post">
+					<img src="img/slider3.jpeg" alt="">
+					<h2>Publisher : leverege the olympics to boost your revenues</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a href="#"><button class="btn">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+				</div><!--blog post-->
+
+				<div class="blog-post">
+					<img src="img/slider3.jpeg" alt="">
+					<h2>Publisher : leverege the olympics to boost your revenues</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a href="#"><button class="btn">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+				</div><!--blog post-->
+
+				<div class="blog-post">
+					<img src="img/slider3.jpeg" alt="">
+					<h2>Publisher : leverege the olympics to boost your revenues</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a href="#"><button class="btn">Read more <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+				</div><!--blog post-->
+
+				<div class="page-pagination">
+					<p class="prev">Previous page</p>
+					<ul class="list">
+						<li><a href="#">1</a></li>
+						<li><a href="#" class="active">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+					</ul>
+					<p class="next">Next page</p>
+				</div><!--page pagination-->
+
+				
+			</div><!--post-->
+
+
+			<div class="sidebar">
+				<form class="search">
+					<h3>Search</h3>
+					<input type="text" name="search" placeholder="typing here">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</form>
+
+				<div class="clickable">
+					<img src="img/ebook-clikable.jpg" alt="">
+				</div><!--clikable-->
+
+				<div class="contact-form">
+					<h3>Contact us</h3>
+					<div class="form-bg">
+						<div class="user">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div><!--user-->
+						<form>							
+							<label><i class="fa fa-user" aria-hidden="true"></i></label>
+							<input type="text" name="name" placeholder="Name">
+							<div class="clearfix"></div><!--clearfix-->
+							<label><img src="img/website.png"></label>
+							<input type="text" name="website" placeholder="Website">
+							<div class="clearfix"></div><!--clearfix-->
+							<label><i class="fa fa-envelope" aria-hidden="true"></i></label>
+							<input type="email" name="email" placeholder="E-mail">
+							<p>By clicking Contact you are indicating that you have read and agree to the <span>TOS</span> and <span>Priacy Policy</span></p>
+							<button class="btn">Contact </button>
+						</form>
+					</div>
+				</div><!--contact form-->
+
+				<div class="follow-us">
+					<h3>Follow us</h3>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div><!--follow us-->
+
+				<div class="tab">
+					<h3>Categories</h3>
+					<main class="main">
+  
+					  	<input id="tab1" type="radio" name="tabs" checked>
+					  	<label for="tab1">Popular</label>
+					    
+					  	<input id="tab2" type="radio" name="tabs">
+					  	<label for="tab2">Latest</label>
+					    
+					  	<input id="tab3" type="radio" name="tabs">
+					  	<label for="tab3">Topics</label>    
+					   
+					  	<section id="content1">
+					  		<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+					  	</section>
+					    
+						<section id="content2">
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+						</section>
+					    
+						<section id="content3">
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+						</section>  
+					  
+					</main><!--main-->
+				</div><!--tab-->
+
+
+
+			</div><!--sidebar-->
+
+
+			<div class="post">
+				<div class="newsletter">
+					<h3>get imonomy's newsletter to stay on top of the ever-changing world of monetization</h3>
+					<form>
+						<img src="img/mail.png" class="mail">
+						<input type="text" name="email" placeholder="Enter your email here" class="input">
+						<button class="subscribe">get the newsletter</button>
+					</form>
+				</div><!--newletter-->
+
+
+				<div class="footer">
+					<div class="footer-box">
+						<p>abc</p>
+					</div><!--footer box-->
+					<div class="footer-box">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Publishers</a></li>
+						</ul>
+					</div><!--footer box-->
+
+					<div class="footer-box">
+						<ul>
+							<li><a href="#">Advertisers</a></li>
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!--footer box-->
+
+					<div class="social">
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</div><!--social-->
+				</div><!--footer-->
+			</div><!--post-->
+		</div><!--wraper-->
+
+		<div class="copyright">
+			<p>Imonomy &copy; 2017 | Terms of use | Privacy Policy | ANKIT</p>
+		</div><!--copyright-->
+
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/slider.js"></script>
+		<script>
+	        // Just to fix IE issues when console isn't defined, only used for the demo - not required for the slider
+	        window.console = window.console || {
+	            log: function () {}
+	        };
+	        $('.full-width').fullWidth()
+	            .on('fws.start', function(e, data){
+	                console.log( 'Moving '+ data.direction +' from slide '+ data.status.previous +' to slide '+ data.status.current );
+	            })
+	            .on('fws.finish', function(e, data){
+	                console.log( 'Moved from slide ' + data.status.previous + ' to slide ' + data.status.current );
+	            });
+		</script>
+
+
+
+
+
+
+		<script>
+(function($) {
+$.fn.menumaker = function(options) {  
+ var cssmenu = $(this), settings = $.extend({
+   format: "dropdown",
+   sticky: false
+ }, options);
+ return this.each(function() {
+   $(this).find(".button").on('click', function(){
+     $(this).toggleClass('menu-opened');
+     var mainmenu = $(this).next('ul');
+     if (mainmenu.hasClass('open')) { 
+       mainmenu.slideToggle().removeClass('open');
+     }
+     else {
+       mainmenu.slideToggle().addClass('open');
+       if (settings.format === "dropdown") {
+         mainmenu.find('ul').show();
+       }
+     }
+   });
+   cssmenu.find('li ul').parent().addClass('has-sub');
+multiTg = function() {
+     cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+     cssmenu.find('.submenu-button').on('click', function() {
+       $(this).toggleClass('submenu-opened');
+       if ($(this).siblings('ul').hasClass('open')) {
+         $(this).siblings('ul').removeClass('open').slideToggle();
+       }
+       else {
+         $(this).siblings('ul').addClass('open').slideToggle();
+       }
+     });
+   };
+   if (settings.format === 'multitoggle') multiTg();
+   else cssmenu.addClass('dropdown');
+   if (settings.sticky === true) cssmenu.css('position', 'fixed');
+resizeFix = function() {
+  var mediasize = 700;
+     if ($( window ).width() > mediasize) {
+       cssmenu.find('ul').show();
+     }
+     if ($(window).width() <= mediasize) {
+       cssmenu.find('ul').hide().removeClass('open');
+     }
+   };
+   resizeFix();
+   return $(window).on('resize', resizeFix);
+ });
+  };
+})(jQuery);
+
+(function($){
+$(document).ready(function(){
+$("#cssmenu").menumaker({
+   format: "multitoggle"
+});
+});
+})(jQuery);</script>
+
+	</body>
+</html>
+
