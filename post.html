@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Imonomy</title>
+		<meta name="description" content="A jQuery slider built from scratch!">
+		<meta name="author" content="Yevgeny Getman">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i,800,800i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css" >
+
+		<style type="text/css">
+			@media screen and (max-width: 768px){
+				.sidebar{display: none;}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header class="header">
+			<div class="wraper">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div><!--logo-->
+
+				<div class="menu">
+					<ul>
+						<li><a href="#">Publishers</a></li>
+						<li><a href="#">Advertisers</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</div><!--menu-->
+
+				<div class="right-menu">
+					<ul>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+				</div><!--right menu-->
+
+			</div><!--wraper-->
+		</header><!--header-->
+
+		<nav id='cssmenu'>
+			<div class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+			<div id="head-mobile"></div>
+			<div class="button"></div>
+			<ul>
+				<li><a href="#">Publishers</a></li>
+				<li><a href="#">Advertisers</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+
+		<div class="wraper">
+			<div class="post">
+				<div class="post-section">
+					<img src="img/post.jpg" alt="">
+				</div><!--post section-->
+				<div class="post-description">
+					<div class="title">
+						<h1>a great user experience boosts revenue</h1>
+					</div><!--title-->
+
+					<div class="blogger">
+						<div class="profile-pic">
+							<img src="img/blogger.png" alt="">
+						</div><!--profile pic-->
+						<div class="post-date">
+							<p>October 27, 2016 by Zev Newman</p>
+							<p>POSTED IN PUBLISHERS, TIPS AND TOOLS</p>
+						</div><!--post date-->
+
+						<div class="use-social-link">
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</div><!--user social link-->
+					</div><!--blogger-->
+
+					<div class="description">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<h3>How user experience affects revenuse</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+						<div class="post-section" style="margin-bottom:20px;">
+							<img src="img/post.jpg" alt="">
+						</div><!--post section-->
+
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+						<div class="next-prev-blog">
+							<a href="#">
+								<div class="previus-blog">
+									<i class="fa fa-chevron-left" aria-hidden="true"></i>
+									<div class="profile-pic">
+										<img src="img/blogger.png" alt="">
+									</div><!--profile pic-->
+									<div class="post-date">
+										<p><span>Previous Article</span></p>
+										<p>Native Advertising Could Succeed As Display</p>
+										<p>Ads Falter</p>
+									</div><!--post date-->
+								</div><!--previus blog-->
+							</a>
+
+							<a href="#">
+
+								<div class="next-blog">			
+									<i class="fa fa-chevron-right" aria-hidden="true"></i>	
+									<div class="profile-pic">
+										<img src="img/blogger.png" alt="">
+									</div><!--profile pic-->					
+									<div class="post-date">
+										<p><span>Next Article</span></p>
+										<p>Native Advertising Could Succeed As Display</p>
+										<p>Ads Falter</p>
+									</div><!--post date-->
+									
+									
+								</div><!--previus blog-->
+							</a>
+						</div><!--next prev blog-->
+					</div><!--description-->
+				</div><!--post description-->
+
+				<div class="recommended">
+					<h3>we recommended</h3>
+					<div class="box-section">
+						<div class="recommended-box">
+							<img src="img/1.jpg" alt="">
+							<p>PUBLISHER : LEVERAGE THE OLYMPICS TO BOOST YOUR REVENUES</p>
+						</div><!--recommended-box-->
+
+						<div class="recommended-box">
+							<img src="img/1.jpg" alt="">
+							<p>PUBLISHER : LEVERAGE THE OLYMPICS TO BOOST YOUR REVENUES</p>
+						</div><!--recommended-box-->
+
+						<div class="recommended-box">
+							<img src="img/1.jpg" alt="">
+							<p>PUBLISHER : LEVERAGE THE OLYMPICS TO BOOST YOUR REVENUES</p>
+						</div><!--recommended-box-->
+
+						<div class="recommended-box">
+							<img src="img/1.jpg" alt="">
+							<p>PUBLISHER : LEVERAGE THE OLYMPICS TO BOOST YOUR REVENUES</p>
+						</div><!--recommended-box-->
+					</div><!--box section-->
+				</div><!--recommended-->
+
+				<div class="newsletter">
+					<h3>get imonomy's newsletter to stay on top of the ever-changing world of monetization</h3>
+					<form>
+						<img src="img/mail.png" class="mail">
+						<input type="text" name="email" placeholder="Enter your email here" class="input">
+						<button class="subscribe">get the newsletter</button>
+					</form>
+				</div><!--newletter-->
+
+				<div class="comment-section">
+					<h3>Comments</h3>
+					<div class="comment-post-section">
+						<div class="post-comment">
+							<div class="comment-count">
+								<h4><b>99931 Comments</b></h4>
+
+								<form class="comment-form">
+									<div class="comment-profile">
+										<img src="img/profile.png" alt="">
+									</div><!--comment profile-->
+									<textarea placeholder="Add a comment"></textarea>
+								</form><!--coment form-->
+
+								<div class="comment-post-success">
+									<div class="comment-profile">
+										<img src="img/profile.png" alt="">
+									</div><!--comment profile-->
+
+									<div class="comment-description">
+										<h2><a href="#">Ankit Kumar</a></h2>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+										<div class="like-section">
+											<a href="#">Like</a>
+											<a href="#">Reply</a>
+											<a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 2006</a>
+											<p>Apr 26, 2016 2:30am</p>
+										</div><!--like section-->
+
+										<div class="sub-comment">
+											<div class="comment-profile">
+												<img src="img/profile.png" alt="">
+											</div><!--comment profile-->
+
+											<div class="comment-description">
+												<h2><a href="#">Ankit Kumar</a></h2>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+												<div class="like-section">
+													<a href="#">Like</a>
+													<a href="#">Reply</a>
+													<a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 2006</a>
+													<p>Apr 26, 2016 2:30am</p>
+												</div><!--like section-->
+											</div><!--comment description-->
+										</div><!--sub comment-->
+									</div><!--comment description-->
+
+									<button class="btn">Load 10 more comments</button>
+								</div><!--comment post success-->
+							</div><!--comment coumnt-->
+
+							
+						</div><!--post coment-->
+					</div><!--coment post section-->
+				</div><!--coment section-->
+			</div><!--post-->
+
+
+			<div class="sidebar">
+				<form class="search">
+					<h3>Search</h3>
+					<input type="text" name="search" placeholder="typing here">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</form>
+
+				<div class="clickable">
+					<img src="img/ebook-clikable.jpg" alt="">
+				</div><!--clikable-->
+
+				<div class="contact-form">
+					<h3>Contact us</h3>
+					<div class="form-bg">
+						<div class="user">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div><!--user-->
+						<form>							
+							<label><i class="fa fa-user" aria-hidden="true"></i></label>
+							<input type="text" name="name" placeholder="Name">
+							<div class="clearfix"></div><!--clearfix-->
+							<label><img src="img/website.png"></label>
+							<input type="text" name="website" placeholder="Website">
+							<div class="clearfix"></div><!--clearfix-->
+							<label><i class="fa fa-envelope" aria-hidden="true"></i></label>
+							<input type="email" name="email" placeholder="E-mail">
+							<p>By clicking Contact you are indicating that you have read and agree to the <span>TOS</span> and <span>Priacy Policy</span></p>
+							<button class="btn">Contact </button>
+						</form>
+					</div>
+				</div><!--contact form-->
+
+				<div class="follow-us">
+					<h3>Follow us</h3>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div><!--follow us-->
+
+				<div class="tab">
+					<h3>Categories</h3>
+					<main class="main">
+  
+					  	<input id="tab1" type="radio" name="tabs" checked>
+					  	<label for="tab1">Popular</label>
+					    
+					  	<input id="tab2" type="radio" name="tabs">
+					  	<label for="tab2">Latest</label>
+					    
+					  	<input id="tab3" type="radio" name="tabs">
+					  	<label for="tab3">Topics</label>    
+					   
+					  	<section id="content1">
+					  		<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+					  	</section>
+					    
+						<section id="content2">
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+						</section>
+					    
+						<section id="content3">
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+
+							<div class="news">
+						  		<img src="img/latest.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news-->  
+
+							<div class="news">
+						  		<img src="img/latest2.jpg" alt="" />
+								<p><b>A Smart Atrategy for Engaging Readers</b></p>
+								<p>October 27, 2016</p> 
+							</div><!--news--> 
+						</section>  
+					  
+					</main><!--main-->
+				</div><!--tab-->
+
+
+
+			</div><!--sidebar-->
+		</div><!--wraper-->
+
+		<div class="copyright">
+			<p>Imonomy &copy; 2017 | Terms of use | Privacy Policy</p>
+		</div><!--copyright-->
+
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/slider.js"></script>
+		<script>
+	        // Just to fix IE issues when console isn't defined, only used for the demo - not required for the slider
+	        window.console = window.console || {
+	            log: function () {}
+	        };
+	        $('.full-width').fullWidth()
+	            .on('fws.start', function(e, data){
+	                console.log( 'Moving '+ data.direction +' from slide '+ data.status.previous +' to slide '+ data.status.current );
+	            })
+	            .on('fws.finish', function(e, data){
+	                console.log( 'Moved from slide ' + data.status.previous + ' to slide ' + data.status.current );
+	            });
+		</script>
+
+		<script>
+(function($) {
+$.fn.menumaker = function(options) {  
+ var cssmenu = $(this), settings = $.extend({
+   format: "dropdown",
+   sticky: false
+ }, options);
+ return this.each(function() {
+   $(this).find(".button").on('click', function(){
+     $(this).toggleClass('menu-opened');
+     var mainmenu = $(this).next('ul');
+     if (mainmenu.hasClass('open')) { 
+       mainmenu.slideToggle().removeClass('open');
+     }
+     else {
+       mainmenu.slideToggle().addClass('open');
+       if (settings.format === "dropdown") {
+         mainmenu.find('ul').show();
+       }
+     }
+   });
+   cssmenu.find('li ul').parent().addClass('has-sub');
+multiTg = function() {
+     cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+     cssmenu.find('.submenu-button').on('click', function() {
+       $(this).toggleClass('submenu-opened');
+       if ($(this).siblings('ul').hasClass('open')) {
+         $(this).siblings('ul').removeClass('open').slideToggle();
+       }
+       else {
+         $(this).siblings('ul').addClass('open').slideToggle();
+       }
+     });
+   };
+   if (settings.format === 'multitoggle') multiTg();
+   else cssmenu.addClass('dropdown');
+   if (settings.sticky === true) cssmenu.css('position', 'fixed');
+resizeFix = function() {
+  var mediasize = 700;
+     if ($( window ).width() > mediasize) {
+       cssmenu.find('ul').show();
+     }
+     if ($(window).width() <= mediasize) {
+       cssmenu.find('ul').hide().removeClass('open');
+     }
+   };
+   resizeFix();
+   return $(window).on('resize', resizeFix);
+ });
+  };
+})(jQuery);
+
+(function($){
+$(document).ready(function(){
+$("#cssmenu").menumaker({
+   format: "multitoggle"
+});
+});
+})(jQuery);</script>
+	</body>
+</html>
+
